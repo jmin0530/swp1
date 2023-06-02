@@ -1,8 +1,10 @@
 from cgi import parse_qs
 from template import html
 import matplotlib.pyplot as plt
+# added----------
 import matplotlib as mpl
 mpl.use('Agg')
+# ---------------
 
 
 def application(environ, start_response):
